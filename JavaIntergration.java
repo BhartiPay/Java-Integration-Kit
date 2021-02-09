@@ -5,12 +5,12 @@ import java.util.Map;
 import com.bhartipay.commons.crypto.ChecksumUtils;
 
 public class JavaIntergration {
-
+  
 	public static void main(String[] args) throws NoSuchAlgorithmException {
 		Map<String, String> map = new HashMap<String, String>();
 		map.put("AMOUNT", "1.00");
 		map.put("CURRENCY_CODE", "356");
-		map.put("CUST_EMAIL", "neeraj.kumar@bhartipay.com");
+		map.put("CUST_EMAIL", "rohit.singh@bhartipay.com");
 		map.put("CUST_NAME", "BHARTIPAY DEMO");
 		map.put("CUST_PHONE", "8860705801");
 		map.put("CUST_STREET_ADDRESS1", "Gurgaon");
@@ -70,7 +70,7 @@ public class JavaIntergration {
 		httpRequest.append("\">");
 
 		httpRequest.append("<input type=\"hidden\" name=\"CUST_EMAIL\" value=\"");
-		httpRequest.append("neeraj.kumar@bhartipay.com");
+		httpRequest.append("rohit.singh@bhartipay.com");
 		httpRequest.append("\">");
 
 		httpRequest.append("<input type=\"hidden\" name=\"PRODUCT_DESC\" value=\"");
